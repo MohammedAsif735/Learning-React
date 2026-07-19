@@ -1,0 +1,7 @@
+.lottery{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
