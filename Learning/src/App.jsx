@@ -1,17 +1,17 @@
 import './App.css'
+import Form from './Form'
 //import Form from './Form.jsx';
 //import TodoList from './TodoList.jsx';
 //import {sum} from './helper';
-import Lottery from './Lottery.jsx'
+//import Lottery from './Lottery.jsx'
 function App() {
-  let winCondition = (ticket) => {
-    return ticket.every((num) => num === ticket[0]);
-  };
+//  let winCondition = (ticket) => {
+//    return ticket.every((num) => num === ticket[0]);
+//  };
    return (
     <>
-    <Lottery n={3} winCondition={winCondition}/>
+    <Form/>
 </>
-  )
-}
-
+   )
+  }
 export default App
